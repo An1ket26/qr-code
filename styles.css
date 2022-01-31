@@ -1,0 +1,40 @@
+body{
+  font-family: 'Outfit', sans-serif;
+  background-color: #d6e2f0;
+  display:flex;
+  justify-content: center;
+}
+.first-line{
+  color:black;
+  font-size: 20px;
+  font-weight: 700;
+}
+.second-line{
+  color:#7b879d;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.main{
+  max-width:250px;
+  background-color: white;
+  padding:15px;
+  border-radius: 20px;
+  text-align: center;
+  margin-top:8%;
+}
+.qr-img{
+  width:100%;
+  border-radius: 10px;
+}
+.attribution{
+  position:absolute;
+  bottom:0;
+  font-size: 12px;
+  text-decoration: none;
+}
+@media (max-width: 475px) {
+  .attribution {
+    font-size: 8px;
+  }
+}
